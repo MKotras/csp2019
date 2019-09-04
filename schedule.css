@@ -1,8 +1,18 @@
 body{
+	background: url(images/osrs-background.jpg);
+	background-size: 100% auto;
+	background-repeat: repeat;
+	text-align:center;
 	font-family: "Marker Felt", "Comic Sans MS", fantasy;
 	color: #003366;
 }
     
+.header{
+	background-color:gray;
+	width:100%;
+	text-align:left;
+}
+	
 h1  {   
 	font-size: 1.3em;   
 	text-align: center;    
