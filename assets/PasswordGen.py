@@ -41,4 +41,9 @@ while True:
         break
     print "Password: "
     p = convert(type, input)
-    print p[0:len(p)-1] #Removes the last character because it is always an '=' sign
+    #Removes either the last character or the last 2 since they are always "=" signs
+    if option=="high":
+        print p[0:len(p)-2] 
+    else:
+        print p[0:len(p)-1]
+    
